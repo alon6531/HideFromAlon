@@ -1,0 +1,2 @@
+ docker build -t hide-from-alon:v0.2 .
+ docker run --rm -p 9000:9000/udp hide-from-alon:v0.2
